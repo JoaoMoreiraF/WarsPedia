@@ -39,7 +39,7 @@ WarsPedia is a portal where you can consult information about movies and charact
 - Set the SWAPI URL: `https://swapi.dev/` into your .env file
 - Start server with `yarn start`
 
-Agora você pode acessar [`localhost:3000`](http://localhost:3000) do seu navegador.
+Now you can access [`localhost:3000`](http://localhost:3000) in your browser.
 
 ---
 Take a look at the running project [here](https://wars-pedia.vercel.app/).
