@@ -41,4 +41,5 @@ WarsPedia is a portal where you can consult information about movies and charact
 
 Agora você pode acessar [`localhost:3000`](http://localhost:3000) do seu navegador.
 
-
+---
+Take a look at the running project [here](https://wars-pedia.vercel.app/)
