@@ -1,0 +1,46 @@
+@import "../../styles/global.scss";
+
+#drawer-detail-component {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #0000004f;
+  padding: 15px 45px 30px;
+  transform: translateY(-30px);
+}
+
+#swipeable-drawer {
+  .MuiPaper-root {
+    color: $mustard;
+    background-color: $dark-blue;
+    justify-content: center;
+    align-items: center;
+    min-width: 700px;
+    width: 100%;
+    max-width: 800px;
+
+    @media screen and (max-width: 900px) {
+      min-width: 100vw;
+      max-width: 100vw;
+    }
+
+    &::before {
+      content: "";
+      filter: blur(3px);
+      position: absolute;
+      width: 100%;
+      height: 100vh;
+      background-image: url("../../assets/starwars.jpg");
+      background-position: left; 
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .img-close {
+      position: absolute;
+      z-index: 2;
+      top: 15px;
+      right: 15px;
+    }
+  }
+}

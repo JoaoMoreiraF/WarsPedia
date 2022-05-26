@@ -1,0 +1,12 @@
+#table-container {
+  @media(max-width: 1200px) {
+    width: 100%;
+  }
+
+  .table {
+    @media(max-width: 1200px) {
+      min-width: 100%;
+    }
+  }
+}
+

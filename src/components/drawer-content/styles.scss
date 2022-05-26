@@ -1,0 +1,19 @@
+@import "../../styles/global.scss";
+
+#drawer-content-component {
+  .content-header {
+    span {
+      font-size: 3rem;
+      font-weight: bold;
+      padding-right: 25px;
+      line-height: 2.8rem;
+      margin-bottom: 30px;
+    }
+  }
+
+  .films-link {
+    color: $mustard;
+    font-style: italic;
+
+  }
+}

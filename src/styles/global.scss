@@ -1,0 +1,45 @@
+$dark-blue: #002F4D;
+$dark-blue-hover: #02446d;
+$mustard: #FFC857;
+$white-smoke: #F4F7F5;
+$white-smoke-hover: #d7d8d7;
+
+p {
+  color: $dark-blue;
+  font-size: 0.75rem;
+  font-family: roboto, sans-serif;
+}
+
+h3 {
+  color: $mustard;
+  font-size: 1.5rem;
+}
+
+h1 {
+  color: $mustard;
+  font-size: 3rem;
+}
+
+.sidebar, .table-header {
+  background-color: $dark-blue;
+}
+
+.mustard-color {
+  color: $mustard;
+}
+
+.dark-blue-color {
+  color: $dark-blue;
+}
+
+.table-row {
+  background-color: $white-smoke;
+}
+
+.table-row:hover {
+  background-color: $white-smoke-hover;
+}
+
+.dark-blue-background {
+  background-color: $dark-blue;
+}
