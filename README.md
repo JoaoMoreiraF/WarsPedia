@@ -1,12 +1,12 @@
 <h1 align="center">
-  <img alt="warspedia" src=".github/logo.svg" />
+  <img alt="warspedia" src=".github/logo.png" />
 </h1>
 
 <p align="center">
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-how-to-run">How to run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-used-api">API</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-used-api">API</a>
 </p>
 
 <br>
@@ -33,7 +33,7 @@ WarsPedia is a portal where you can consult information about movies and charact
 
 ## 🚀 How to run
 
-- Clone thi repo
+- Clone this repo
 - Install all dependencies with `yarn install`
 - Initialize .env file with `cp .env.example .env`
 - Set the SWAPI URL: `https://swapi.dev/` into your .env file
@@ -42,4 +42,4 @@ WarsPedia is a portal where you can consult information about movies and charact
 Agora você pode acessar [`localhost:3000`](http://localhost:3000) do seu navegador.
 
 ---
-Take a look at the running project [here](https://wars-pedia.vercel.app/)
+Take a look at the running project [here](https://wars-pedia.vercel.app/).
