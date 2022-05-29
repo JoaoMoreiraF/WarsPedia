@@ -49,7 +49,6 @@ export function CharactersPage() {
   useEffect(()=> {
     const intersectionObserver = new IntersectionObserver(entries => {
       if(entries.some(entry => entry.isIntersecting)) {
-        console.log('aqui')
         setCurrentPage((currentValue) => currentValue + 1)
       }
     })

@@ -8,7 +8,6 @@ function LoadingComponent() {
   const [loadingState, setLoadingState] = useState<boolean>(false)
 
   useEffect(() => {
-    console.log(isLoading)
     setLoadingState(isLoading)
   }, [isLoading])
 
